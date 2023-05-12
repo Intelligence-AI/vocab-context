@@ -49,6 +49,8 @@ human-readable documentation for the given schema. For example:
 { "documentation": "https://vocab-context.intelligence.ai/v1" }
 ```
 
+The value of this keyword MUST be collected as an annotation.
+
 ### `authors: [String]`
 
 This keyword is set to an non-empty array of strings that determine the authors
@@ -59,6 +61,8 @@ following format: `name <email>`. For example:
 { "authors": [ "Juan Cruz Viotti <juan@intelligence.ai>" ] }
 ```
 
+The value of this keyword MUST be collected as an annotation.
+
 ### `license: String`
 
 This keyword is set to a string that denotes a valid
@@ -67,3 +71,5 @@ This keyword is set to a string that denotes a valid
 ```json
 { "license": "Apache-2.0" }
 ```
+
+The value of this keyword MUST be collected as an annotation.
