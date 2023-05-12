@@ -15,3 +15,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - run: make
+      - name: Check that there are no uncommitted changes
+        run: ./.github/no-staged-uncommitted-files.sh
