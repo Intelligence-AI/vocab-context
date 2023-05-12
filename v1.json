@@ -1,0 +1,26 @@
+{
+  "$id": "https://vocab-context.intelligence.ai/v1.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$dynamicAnchor": "meta",
+  "$vocabulary": {
+    "https://vocab-context.intelligence.ai/v1": true
+  },
+  "title": "A JSON Schema vocabulary for defining the 'Why', 'Where', and 'Who' of data",
+  "type": [ "object", "boolean" ],
+  "properties": {
+    "documentation": {
+      "type": "string",
+      "format": "uri"
+    },
+    "authors": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "license": {
+      "$ref": "https://schemas.sourcemeta.com/spdx/license/v1.json"
+    }
+  }
+}
