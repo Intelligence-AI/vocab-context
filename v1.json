@@ -1,9 +1,9 @@
 {
-  "$id": "https://vocab-context.intelligence.ai/v1.json",
+  "$id": "https://intelligence-ai.github.io/vocab-context/v1.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$dynamicAnchor": "meta",
   "$vocabulary": {
-    "https://vocab-context.intelligence.ai/v1": true
+    "https://intelligence-ai.github.io/vocab-context/v1": true
   },
   "title": "A JSON Schema vocabulary for defining the 'Why', 'Where', and 'Who' of data",
   "type": [ "object", "boolean" ],

@@ -6,7 +6,7 @@ The URI of the latest version of this vocabulary, which targets JSON Schema
 2020-12, is:
 
 ```sh
-https://vocab-context.intelligence.ai/v1
+https://intelligence-ai.github.io/vocab-context/v1
 ```
 
 Usage
@@ -29,10 +29,10 @@ example:
     "https://json-schema.org/draft/2020-12/vocab/meta-data": true,
     "https://json-schema.org/draft/2020-12/vocab/format-annotation": true,
     "https://json-schema.org/draft/2020-12/vocab/content": true,
-    "https://vocab-context.intelligence.ai/v1": true
+    "https://intelligence-ai.github.io/vocab-context/v1": true
   },
   "allOf": [
-    { "$ref": "https://vocab-context.intelligence.ai/v1.json" }
+    { "$ref": "https://intelligence-ai.github.io/vocab-context/v1.json" }
   ]
 }
 ```
@@ -46,7 +46,7 @@ This keyword is set to a URI or a relative URI reference that points to
 human-readable documentation for the given schema. For example:
 
 ```json
-{ "documentation": "https://vocab-context.intelligence.ai/v1" }
+{ "documentation": "https://intelligence-ai.github.io/vocab-context/v1" }
 ```
 
 The value of this keyword MUST be collected as an annotation.
