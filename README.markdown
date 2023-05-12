@@ -37,3 +37,41 @@ example:
 }
 ```
 
+Keywords
+--------
+
+### `documentation: URI`
+
+This keyword is set to a URI or a relative URI reference that points to
+human-readable documentation for the given schema. For example:
+
+```json
+{
+  "documentation": "https://vocab-context.intelligence.ai/v1"
+}
+```
+
+### `authors: [String]`
+
+This keyword is set to an non-empty array of strings that determine the authors
+of the given schema. The format of each author string SHOULD follow the
+following format: `name <email>`. For example:
+
+```json
+{
+  "authors": [
+    "Juan Cruz Viotti <juan@intelligence.ai>"
+  ]
+}
+```
+
+### `license: String`
+
+This keyword is set to a string that denotes a valid
+[SPDX](https://spdx.org/licenses/) license identifier. For example:
+
+```json
+{
+  "license": "Apache-2.0"
+}
+```
